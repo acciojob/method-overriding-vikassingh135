@@ -11,7 +11,9 @@ class B extends A {
     return "Method is overridden in Extendend class B";
 }
 
-public static class Main {
+public class Main {
+  public static void main(String []args) throws Exception{ 
    B b = new B();
    b.meth();
+  }
 }
