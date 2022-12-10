@@ -11,7 +11,7 @@ class B extends A {
     return "Method is overridden in Extendend class B";
 }
 
-public class Main {
+public static class Main {
    B b = new B();
    b.meth();
 }
